@@ -1,166 +1,174 @@
 <!DOCTYPE html>
 <html>
-	<head>
 
-		<title>My fucking blog - Tihamer</title>
-		<link href="my_blog.css" rel="stylesheet">
-		<link rel="shortcut icon" href="icon.jpg">
-	</head>
+<head>
 
-	<body>
-		<!-- inicio header -->
-		<div id="header" class="section">
-			<img alt="" class="img-circle" src="tih.jpeg">
-			<p><big/>Tihamer Aldana </big/></p>
+	<title>My fucking blog - Tihamer</title>
+	<link href="my_blog.css" rel="stylesheet">
+	<link rel="shortcut icon" href="icon.jpg">
+</head>
+
+<body>
+	<!-- inicio header -->
+	<div id="header" class="section">
+		<img alt="" class="img-circle" src="tih.jpeg">
+		<p><big />Tihamer Aldana </big /></p>
+	</div>
+	<!-- fin header -->
+
+	<!-- sección "acerca de mi" inicio -->
+	<div class="section">
+		<h1><span>Acerca de Mi</span></h1>
+		<p>
+			Hola, soy <strong>Tihamer Aldana</strong>. Me gustala musica, la tecnologia, pasar tiempo con mi esposa e
+			hija, tambien los video juegos, actualmente estudio en el <bid><i>SENA</i></bid>, he estado aprendiendo por
+			diferentes plataformas, como, <strong>YouTube, Duolingo, LinkedIn Learning,</strong> y
+			<strong>SENA</strong>. Para escribir codigo uso, <strong>Visual Studio Code, Eclipse</strong> y aveces
+			<strong>NetBeans</strong>. Me gusta mucho aprender, y lo seguire haciendo tanto por mi crecimiento laboral,
+			academico, como mi crecimiento personal.
+		</p>
+		<p class="quote">"Declara variables, no guerra"</p>
+	</div>
+	<!-- "Acerca de mi" final -->
+
+	<!-- sección calendario -->
+	<div class="section">
+		<h1><span>Mi Calendario</span></h1>
+		<p>
+			En el siguiente calendario se evidencia mi agenda del segundo trimestre de estudios. Cabe aclarar que las clases son virtuales por la actual cuarentena.
+		</p>
+		<br>
+		<table>
+			<tr>
+				<th>Día</th>
+				<th>Martes</th>
+				<th>Miercoles</th>
+				<th>Jueves</th>
+				<th>Viernes</th>
+				<th>Sabado</th>
+				<th>Domingo</th>
+			</tr>
+			<tr>
+				<td>6:00 - 9:00</td>
+				<td colspan="4" class="selected">Sleep time</td>
+				<td>Algoritmos II</td>
+				<td>Etica y Com. II</td>
+			</tr>
+			<tr>
+				<td>9:00 - 9:30</td>
+				<td>Revisar si hay tareas</td>
+				<td>Duolingo</td>
+				<td>Revisar si hay tareas</td>
+				<td>Duolingo</td>
+				<td colspan="2" class="selected">Descanso</td>
+			</tr>
+			<tr>
+				<td>9:30 - 12:00</td>
+				<td colspan="4" class="selected">Desayuno y aseo en casa</td>
+				<td>Algoritmos II</td>
+				<td>Ing. Software II</td>
+			</tr>
+			<tr>
+				<td>12:00 - 13:00</td>
+				<td>Duolingo y YouTube</td>
+				<td>Aprender en LinkedIn Learning</td>
+				<td>Duolingo y aprender en YouTube</td>
+				<td>Aprender en LinkedIn Learning</td>
+				<td colspan="2" class="selected">Almuerzo</td>
+			</tr>
+			<tr>
+				<td>13:00 - 15:00</td>
+				<td colspan="4" class="selected">Almuerzo y Netflix</td>
+				<td>Diseño Web</td>
+				<td>Ing. Software II</td>
+			</tr>
+			<tr>
+				<td>15:00 - 15:30</td>
+				<td rowspan="2">Hacer tareas</td>
+				<td>Revisar si hay tareas</td>
+				<td>Hacer tareas</td>
+				<td>Revisar si hay trabajos por enviar</td>
+				<td colspan="2" class="selected">Descanso</td>
+			</tr>
+			<tr>
+				<td>15:30 - 18:00</td>
+				<td>Hacer tareas y aprender en YouTube</td>
+				<td>Aprender en LinkedIn Learning</td>
+				<td>Hacer tareas y aprender en YouTube</td>
+				<td>Ingles II</td>
+				<td>Ing. Software II</td>
+			</tr>
+		</table>
+	</div>
+	<!-- fin sección calendario -->
+
+
+	<!-- inicio mis habilidades -->
+	<div class="section">
+		<h1><span>Mis Habilidades</span></h1>
+		<ul>
+			<li>HTML <br />
+				<progress min="0" max="100" value="30"></progress>
+			</li>
+			<li>JavaScript <br />
+				<progress min="0" max="100" value="20"></progress>
+			</li>
+			<li>JAVA <br />
+				<progress min="0" max="100" value="47"></progress>
+			</li>
+		</ul>
+	</div>
+	<!-- fin mis habilidades -->
+
+
+	<!-- mi Multimedia-->
+	<div class="section">
+		<h1><span>Mi Multimedia</span></h1>
+		<iframe width="453" height="280" src="https://www.youtube.com/embed/nKBF5QJ3ZoQ" frameborder="0"
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
+	<!-- multimedia termina-->
+
+	<!-- inicio formulario -->
+	<div class="section">
+		<h1><span>Contactactame</span></h1>
+
+
+
+		<form>
+			<input name="name" placeholder="Nombre" type="text" required /><br />
+			<input name="email" placeholder="Email" type="email" required /><br />
+			<textarea name="message" placeholder="Mensaje" required></textarea>
+			<input type="submit" value="ENVIAR" class="submit" />
+		</form>
+	</div>
+	<!-- fin formulario -->
+
+	<!-- sección de contactame -->
+	<div class="section" id="contacts">
+		<h1><span>Sigueme</span></h1>
+		<div>
+			<a href="https://www.youtube.com/channel/UCeIL4lnl2TCK2tHhDR1p7bg?view_as=subscriber" target="_self">
+				<img alt="Youtube" src="Youtube.png" />
+			</a>
+			<a href="https://www.facebook.com/tihamerk/" target="_blank">
+				<img alt="Facebook" src="facebook.png" />
+			</a>
+			<a href="https://twitter.com/TihamerK" target="_blank">
+				<img alt="Twitter" src="twitter.png" />
+			</a>
+			<a href="https://soundcloud.com/mynameismudohhh" target="_blank">
+				<img alt="Soundcloud" src="Soundcloud.png">
+			</a>
 		</div>
-		<!-- fin header -->
+	</div>
+	<!-- fin-->
 
-		<!-- sección "acerca de mi" inicio -->
-		<div class="section">
-			<h1><span>Acerca de Mi</span></h1>
-			<p>
-				Hola, soy <strong>Tihamer Aldana</strong>. Me gustala musica, la tecnologia, pasar tiempo con mi esposa e hija, tambien los video juegos, actualmente estudio en el <bid><i>SENA</i></bid>, he estado aprendiendo por diferentes plataformas, como, <strong>YouTube, Duolingo, LinkedIn Learning,</strong> y <strong>SENA</strong>. Para escribir codigo uso, <strong>Visual Studio Code, Eclipse</strong> y aveces <strong>NetBeans</strong>. Me gusta mucho aprender, y lo seguire haciendo tanto por mi crecimiento laboral, academico, como mi crecimiento personal.
-			</p>
-			<p class="quote">"Declara variables, no guerra"</p>
-		</div>
-		<!-- "Acerca de mi" final -->
+	<div class="copyright">
+		&copy; 2020 My fucking Blog - Tihamer. All rights reserved.
+	</div>
 
-		<!-- sección calendario -->
-		<div class="section">
-			<h1><span>Mi Calendario</span></h1>
-			<p>
-				En el siguiente calendario cabe aclarar que las clases son virtuales por la actual cuarentena.
-			</p>
-			<br>
-			<table>
-				<tr>
-					<th>Día</th>
-					<th>Martes</th>
-					<th>Miercoles</th>
-					<th>Jueves</th>
-					<th>Viernes</th>
-					<th>Sabado</th>
-					<th>Domingo</th>
-				</tr>
-				<tr>
-					<td>6:00 - 9:00</td>
-					<td colspan="4" class="selected">Sleep time</td>
-					<td>Algoritmos II</td>
-					<td>Etica y Com. II</td>
-				</tr>
-				<tr>
-					<td>9:00 - 9:30</td>
-					<td>Revisar si hay tareas</td>
-					<td>Duolingo</td>
-					<td>Revisar si hay tareas</td>
-					<td>Duolingo</td>
-					<td colspan="2" class="selected">Descanso</td>
-				</tr>
-				<tr>
-					<td>9:30 - 12:00</td>
-					<td colspan="4" class="selected">Desayuno y aseo en casa</td>
-					<td>Algoritmos II</td>
-					<td>Ing. Software II</td>
-				</tr>
-				<tr>
-					<td>12:00 - 13:00</td>
-					<td>Duolingo y YouTube</td>
-					<td>Aprender en LinkedIn Learning</td>
-					<td>Duolingo y aprender en YouTube</td>
-					<td>Aprender en LinkedIn Learning</td>
-					<td colspan="2" class="selected">Almuerzo</td>
-				</tr>
-				<tr>
-					<td>13:00 - 15:00</td>
-					<td colspan="4" class="selected">Almuerzo y Netflix</td>
-					<td>Diseño Web</td>
-					<td>Ing. Software II</td>
-				</tr>
-				<tr>
-					<td>15:00 - 15:30</td>
-					<td rowspan="2">Hacer tareas</td>
-					<td>Revisar si hay tareas</td>
-					<td>Hacer tareas</td>
-					<td>Revisar si hay trabajos  por enviar</td>
-					<td colspan="2" class="selected">Descanso</td>
-				</tr>
-				<tr>
-					<td>15:30 - 18:00</td>
-					<td>Hacer tareas y aprender en YouTube</td>
-					<td>Aprender en LinkedIn Learning</td>
-					<td>Hacer tareas y aprender en YouTube</td>
-					<td>Ingles II</td>
-					<td>Ing. Software II</td>
-				</tr>
-			</table>
-		</div>
-		<!-- fin sección calendario -->
+</body>
 
-
-		<!-- inicio mis habilidades -->
-		<div class="section">
-			<h1><span>Mis Habilidades</span></h1>
-			<ul>
-				<li>HTML <br />
-					<progress min="0" max="100" value="30"></progress>
-				</li>
-				<li>JavaScript <br />
-					<progress min="0" max="100" value="20"></progress>
-				</li>
-				<li>JAVA <br />
-					<progress min="0" max="100" value="47"></progress>
-				</li>
-			</ul>
-		</div>
-		<!-- fin mis habilidades -->
-
-
-		 <!-- mi Multimedia-->
-		<div class="section">
-			<h1><span>Mi Multimedia</span></h1>
-			<iframe width="453" height="280" src="https://www.youtube.com/embed/nKBF5QJ3ZoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
-		</div>
-		<!-- multimedia termina-->
-
-		<!-- inicio formulario -->
-	   <div class="section">
-			<h1><span>Contactactame</span></h1>
-
-			
-
-			<form>
-				<input name="name" placeholder="Nombre" type="text" required /><br/>
-				<input name="email" placeholder="Email" type="email" required /><br/>
-				<textarea name="message" placeholder="Mensaje" required ></textarea>
-				<input type="submit" value="ENVIAR" class="submit" />
-			</form>
-		</div>
-		<!-- fin formulario -->
-
-		<!-- sección de contactame -->
-		<div class="section" id="contacts">
-			<h1><span>Sigueme</span></h1>
-			<div>
-				<a href="https://www.youtube.com/channel/UCeIL4lnl2TCK2tHhDR1p7bg?view_as=subscriber" target="_self">
-					<img alt="Youtube" src="Youtube.png" />
-				</a>
-				<a href="https://www.facebook.com/tihamerk/" target="_blank">
-					<img alt="Facebook" src="facebook.png"/>
-				</a>
-				<a href="https://twitter.com/TihamerK" target="_blank">
-					<img alt="Twitter" src="twitter.png" />
-				</a>
-				<a href="https://soundcloud.com/mynameismudohhh" target="_blank">
-					<img alt="Soundcloud" src="Soundcloud.png">
-				</a>
-			</div>
-		</div>
-		<!-- fin-->
-
-		<div class="copyright">
-			&copy; 2020 My fucking Blog - Tihamer. All rights reserved.
-		</div>
-
-	</body>
 </html>
